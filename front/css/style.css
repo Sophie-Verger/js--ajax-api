@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #242424;
+    background-image: url('../image/snowflakes-554635__340.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #242424;
+}
+
+/*_______ Menu _______*/
+nav {
+    background-color: white;
+    width: 100%;
+    padding: 2%;
+}
+
+nav a {
+    margin-left: 3%;
+}
+
+
+/*_______ liste articles _______*/
+
+.postsList, .createPost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.post-card {
+    border: 1px solid #242424;
+    background-color: #ff6161;
+    color: #fff;
+    text-align: center;
+    width: 20%;
+    margin: 1%;
+    padding: 1%;
+    display: inline-block;
+}
+
+/*_______ Affichage d'un article _______*/
+
+.container {
+    background-color: #5cff5c;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding: 3%;
+    margin-top: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+}
+
+form p {
+    font-weight: bold;
+}
+
+form input {
+    height: 2em;
+    margin-bottom: 5%;
+}
+
+form textarea {
+    height: 6em;
+    margin-bottom: 5%;
+}
+
+.submit-button {
+    width: 45%;
+    margin: auto;
+    padding: 2% 0 4%;
+    font-size: 18px;
+    background-color: ivory;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: lightgray;
+}
+
+.liens-article {
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+}
+
+.deletePost {
+    width: 20%;
+    padding: 1%;
+    margin-left: 2%;
+    font-size: 18px;
+    background-color: #ff6161;
+    color: white;
+    cursor: pointer;
+}
+
+.contenu-article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
